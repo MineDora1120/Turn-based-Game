@@ -1,0 +1,1339 @@
+fileFormatVersion: 2
+guid: 4a5028c315e049a4aa267ebb59bf039c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8507991578434038815
+    second: sparks_effect_0
+  - first:
+      213: -4598233320681928969
+    second: sparks_effect_1
+  - first:
+      213: -4017989158931494205
+    second: sparks_effect_2
+  - first:
+      213: 7302566017145102386
+    second: sparks_effect_3
+  - first:
+      213: -368005466525731834
+    second: sparks_effect_4
+  - first:
+      213: 4224448504067920709
+    second: sparks_effect_5
+  - first:
+      213: -7410552670216164095
+    second: sparks_effect_6
+  - first:
+      213: -8651498834384830033
+    second: sparks_effect_7
+  - first:
+      213: 2699182161967918906
+    second: sparks_effect_8
+  - first:
+      213: -42562436144132329
+    second: sparks_effect_9
+  - first:
+      213: -2963640722238938504
+    second: sparks_effect_10
+  - first:
+      213: 347543042624677227
+    second: sparks_effect_11
+  - first:
+      213: -616766159899565560
+    second: sparks_effect_12
+  - first:
+      213: 538185007602982502
+    second: sparks_effect_13
+  - first:
+      213: 458191275642142000
+    second: sparks_effect_14
+  - first:
+      213: -1481757415337073136
+    second: sparks_effect_15
+  - first:
+      213: 8506390295115038203
+    second: sparks_effect_16
+  - first:
+      213: -8693389567591208949
+    second: sparks_effect_17
+  - first:
+      213: 8780542571628757152
+    second: sparks_effect_18
+  - first:
+      213: -1369750588557619083
+    second: sparks_effect_19
+  - first:
+      213: -5178406685966456509
+    second: sparks_effect_20
+  - first:
+      213: 850323238954350311
+    second: sparks_effect_21
+  - first:
+      213: -3046498487007494081
+    second: sparks_effect_22
+  - first:
+      213: 434481616296602965
+    second: sparks_effect_23
+  - first:
+      213: 6772038324959115571
+    second: sparks_effect_24
+  - first:
+      213: -7535936140377282516
+    second: sparks_effect_25
+  - first:
+      213: -227454410360430548
+    second: sparks_effect_26
+  - first:
+      213: 6237983301141428769
+    second: sparks_effect_27
+  - first:
+      213: 6891506541176330060
+    second: sparks_effect_28
+  - first:
+      213: 3285880185040957061
+    second: sparks_effect_29
+  - first:
+      213: 5149049023681740622
+    second: sparks_effect_30
+  - first:
+      213: 2440170332667891611
+    second: sparks_effect_31
+  - first:
+      213: 240207894633762439
+    second: sparks_effect_32
+  - first:
+      213: 8195601537002951164
+    second: sparks_effect_33
+  - first:
+      213: -2970562089498880658
+    second: sparks_effect_34
+  - first:
+      213: -5367188020818130917
+    second: sparks_effect_35
+  - first:
+      213: 3308937701912169367
+    second: sparks_effect_36
+  - first:
+      213: 526781297695238274
+    second: sparks_effect_37
+  - first:
+      213: -1193047543986216390
+    second: sparks_effect_38
+  - first:
+      213: 558169273145079431
+    second: sparks_effect_39
+  - first:
+      213: -3980274382908410402
+    second: sparks_effect_40
+  - first:
+      213: -5923912455885517165
+    second: sparks_effect_41
+  - first:
+      213: 6444146228163167948
+    second: sparks_effect_42
+  - first:
+      213: -5791337999206836505
+    second: sparks_effect_43
+  - first:
+      213: -1778267812475324372
+    second: sparks_effect_44
+  - first:
+      213: 3722992591910420461
+    second: sparks_effect_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sparks_effect_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 708
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e39c679cba8de980800000000000000
+      internalID: -8507991578434038815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 643
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f68366482bcf20c0800000000000000
+      internalID: -4598233320681928969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_2
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 579
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca848ee52c3d38c0800000000000000
+      internalID: -4017989158931494205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 523
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230e5c81a1de75560800000000000000
+      internalID: 7302566017145102386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 515
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604f45c5af494eaf0800000000000000
+      internalID: -368005466525731834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 530
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54316e8488140aa30800000000000000
+      internalID: 4224448504067920709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 461
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d6176fb9d682990800000000000000
+      internalID: -7410552670216164095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_7
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 467
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa149c1d5a3bfe780800000000000000
+      internalID: -8651498834384830033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 451
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f2b2c10eb657520800000000000000
+      internalID: 2699182161967918906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 469
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f8ad890b9c86ff0800000000000000
+      internalID: -42562436144132329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 459
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872e01517780fd6d0800000000000000
+      internalID: -2963640722238938504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 400
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b656dcf4e88b2d400800000000000000
+      internalID: 347543042624677227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 405
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80264b1027ec077f0800000000000000
+      internalID: -616766159899565560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_13
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 388
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66edd99b964087700800000000000000
+      internalID: 538185007602982502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_14
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 408
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d35df9982db5600800000000000000
+      internalID: 458191275642142000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 399
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016688f3b7dbf6be0800000000000000
+      internalID: -1481757415337073136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 339
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd792597e4cc0670800000000000000
+      internalID: 8506390295115038203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_17
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 346
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08a3a17f30ea5780800000000000000
+      internalID: -8693389567591208949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_18
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 336
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0802592f0cad970800000000000000
+      internalID: 8780542571628757152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_19
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 348
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5701422d81badfce0800000000000000
+      internalID: -1369750588557619083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 339
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34926743e8a9228b0800000000000000
+      internalID: -5178406685966456509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_21
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 324
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6322a0b74fccb00800000000000000
+      internalID: 850323238954350311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_22
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 277
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30472164c9a8b5d0800000000000000
+      internalID: -3046498487007494081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_23
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 287
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55debc06ab6970600800000000000000
+      internalID: 434481616296602965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_24
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 263
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339f48c0afc1bfd50800000000000000
+      internalID: 6772038324959115571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 288
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28a8c6e10afa6790800000000000000
+      internalID: -7535936140377282516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_26
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 277
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20eedb3b6be7dcf0800000000000000
+      internalID: -227454410360430548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_27
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 268
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a7a5b13c4c19650800000000000000
+      internalID: 6237983301141428769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 208
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47981abfac83af50800000000000000
+      internalID: 6891506541176330060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_29
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 218
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e6cd37e9ac99d20800000000000000
+      internalID: 3285880185040957061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_30
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 229
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f3f936ec8157740800000000000000
+      internalID: 5149049023681740622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_31
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 219
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9fcd1e2df93dd120800000000000000
+      internalID: 2440170332667891611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_32
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 204
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ec3e7bec3655300800000000000000
+      internalID: 240207894633762439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_33
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 158
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1d4bdfc20acb170800000000000000
+      internalID: 8195601537002951164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_34
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 175
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e655d20b48176c6d0800000000000000
+      internalID: -2970562089498880658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_35
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 153
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1847608eeae385b0800000000000000
+      internalID: -5367188020818130917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_36
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 143
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b4f52fe45bbed20800000000000000
+      internalID: 3308937701912169367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_37
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 159
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288a17b9cc08f4700800000000000000
+      internalID: 526781297695238274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_38
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 94
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32ac8c6491717fe0800000000000000
+      internalID: -1193047543986216390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_39
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 94
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786b9522ff30fb700800000000000000
+      internalID: 558169273145079431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_40
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 106
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed53822898933c8c0800000000000000
+      internalID: -3980274382908410402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_41
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 85
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e8e62f1090acda0800000000000000
+      internalID: -5923912455885517165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_42
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 30
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6c65a1ad43e6950800000000000000
+      internalID: 6444146228163167948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_43
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 37
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e61e0706c801afa0800000000000000
+      internalID: -5791337999206836505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_44
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 42
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28b5e1a8d25257e0800000000000000
+      internalID: -1778267812475324372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks_effect_45
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 21
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def3b3e790abaa330800000000000000
+      internalID: 3722992591910420461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sparks_effect_0: -8507991578434038815
+      sparks_effect_1: -4598233320681928969
+      sparks_effect_10: -2963640722238938504
+      sparks_effect_11: 347543042624677227
+      sparks_effect_12: -616766159899565560
+      sparks_effect_13: 538185007602982502
+      sparks_effect_14: 458191275642142000
+      sparks_effect_15: -1481757415337073136
+      sparks_effect_16: 8506390295115038203
+      sparks_effect_17: -8693389567591208949
+      sparks_effect_18: 8780542571628757152
+      sparks_effect_19: -1369750588557619083
+      sparks_effect_2: -4017989158931494205
+      sparks_effect_20: -5178406685966456509
+      sparks_effect_21: 850323238954350311
+      sparks_effect_22: -3046498487007494081
+      sparks_effect_23: 434481616296602965
+      sparks_effect_24: 6772038324959115571
+      sparks_effect_25: -7535936140377282516
+      sparks_effect_26: -227454410360430548
+      sparks_effect_27: 6237983301141428769
+      sparks_effect_28: 6891506541176330060
+      sparks_effect_29: 3285880185040957061
+      sparks_effect_3: 7302566017145102386
+      sparks_effect_30: 5149049023681740622
+      sparks_effect_31: 2440170332667891611
+      sparks_effect_32: 240207894633762439
+      sparks_effect_33: 8195601537002951164
+      sparks_effect_34: -2970562089498880658
+      sparks_effect_35: -5367188020818130917
+      sparks_effect_36: 3308937701912169367
+      sparks_effect_37: 526781297695238274
+      sparks_effect_38: -1193047543986216390
+      sparks_effect_39: 558169273145079431
+      sparks_effect_4: -368005466525731834
+      sparks_effect_40: -3980274382908410402
+      sparks_effect_41: -5923912455885517165
+      sparks_effect_42: 6444146228163167948
+      sparks_effect_43: -5791337999206836505
+      sparks_effect_44: -1778267812475324372
+      sparks_effect_45: 3722992591910420461
+      sparks_effect_5: 4224448504067920709
+      sparks_effect_6: -7410552670216164095
+      sparks_effect_7: -8651498834384830033
+      sparks_effect_8: 2699182161967918906
+      sparks_effect_9: -42562436144132329
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
