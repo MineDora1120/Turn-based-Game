@@ -1729,6 +1729,7 @@ GameObject:
   - component: {fileID: 1816812995}
   - component: {fileID: 1816812996}
   - component: {fileID: 1816812997}
+  - component: {fileID: 1816812999}
   - component: {fileID: 1816812998}
   m_Layer: 0
   m_Name: Player
@@ -1806,7 +1807,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 520585064, guid: ee1d1625d4f71d840bfe95deff3268d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1950,6 +1951,28 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1.125}
   m_EdgeRadius: 0
+--- !u!114 &1816812999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816812990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330bf966a6ca3984bad1359ac57e2683, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCore
+  stats:
+    hp: 100
+    attackValue: 20
+    defenseValue: 10
+    turnSpeed: 10
+    mp: 50
+    level: 0
+    xp: 0
+    criticalAttack: 15
+    missValue: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
