@@ -73,7 +73,7 @@
                     "name": "Sprint",
                     "type": "Button",
                     "id": "641cd816-40e6-41b4-8c3d-04687c349290",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -81,7 +81,7 @@
                 {
                     "name": "Move",
                     "type": "Value",
-                    "id": "73c54709-2d27-476b-9caf-a9084554878a",
+                    "id": "323e3afa-a607-4d3d-8ead-1ba7584f8d2c",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -344,7 +344,7 @@
                 },
                 {
                     "name": "1D Axis",
-                    "id": "a5eaa1bd-7229-441a-841d-8ab806970b8e",
+                    "id": "9a270a3b-5245-4556-b937-e66b02028731",
                     "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
@@ -355,40 +355,7 @@
                 },
                 {
                     "name": "negative",
-                    "id": "1a746565-2f28-427c-b16e-60334532cbba",
-                    "path": "<Keyboard>/leftArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "positive",
-                    "id": "406d0ef5-7309-43df-a55d-f139c2c4b54b",
-                    "path": "<Keyboard>/rightArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "1D Axis",
-                    "id": "d193ac5e-6f8b-473e-a247-dcb3265e947a",
-                    "path": "1DAxis",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Move",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "Negative",
-                    "id": "976fa321-f661-4ec6-b3ef-3dc1be1e6e11",
+                    "id": "a9f18361-e0c4-42df-8d4d-7523e6c8e7a9",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -398,8 +365,8 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Positive",
-                    "id": "ecee4c00-13a4-48a0-b1bb-55420a6c4d7d",
+                    "name": "positive",
+                    "id": "deaa1a29-d3b0-4619-81e8-8664e34fb0db",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",

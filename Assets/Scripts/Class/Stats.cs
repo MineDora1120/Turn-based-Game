@@ -1,57 +1,100 @@
-//ëª¨ë“  ìºë¦­í„°ì˜ ìŠ¤íƒ¯ì„ ë‹´ëŠ” í´ë˜ìŠ¤
+using UnityEngine;
+
 [System.Serializable]
+//C# Å¬·¡½º¸¦ Á÷·ÄÈ­(Serialization) °¡´ÉÇÏ°Ô ¸¸µå´Â ¼Ó¼º(Attribute)
+//Å¬·¡½ºÀÇ µ¥ÀÌÅÍ¸¦ Inspector Ã¢¿¡ Ç¥½ÃÇÏ°Å³ª ÀúÀåÇÒ ¼ö ÀÖ°Ô ÇØÁÖ´Â ±â´É
+
 public class Stats
 {
+    public int level;
     public int hp;
     public float attackValue;
     public float defenseValue;
     public float turnSpeed;
 }
 
-// í”Œë ˆì´ì–´ì˜ ìŠ¤íƒ¯ì„ ë‹´ëŠ” í´ë˜ìŠ¤
 [System.Serializable]
-public class PlayerStats : Stats
+public class PlayerStat : Stats
 {
-    public int mp;
-    public int level;
+    public float mp;
     public float xp;
-    public float criticalAttackPercentage;
-    public float missPercentage;
+    public int criticalPercentage;
+    public int missPercentage;
 
-    public static PlayerStats operator +(PlayerStats stats, PlayerStats other)
+    public static PlayerStat operator +(PlayerStat a, PlayerStat b)
     {
-        PlayerStats result = new PlayerStats();
-        result.hp = stats.hp + other.hp;
-        result.mp = stats.mp + other.mp;
-        result.attackValue = stats.attackValue + other.attackValue;
-        result.defenseValue = stats.defenseValue + other.defenseValue;
-        result.turnSpeed = stats.turnSpeed + other.turnSpeed;
-        result.level = stats.level + other.level;
-        result.xp = stats.xp + other.xp;
-        result.criticalAttackPercentage = stats.criticalAttackPercentage + other.criticalAttackPercentage;
-        result.missPercentage = stats.missPercentage + other.missPercentage;
+        PlayerStat result = new PlayerStat();
+
+        // ºÎ¸ğ Å¬·¡½º Stats
+        result.hp = a.hp + b.hp;
+        result.attackValue = a.attackValue + b.attackValue;
+        result.defenseValue = a.defenseValue + b.defenseValue;
+        result.turnSpeed = a.turnSpeed + b.turnSpeed;
+
+        // PlayerStat Àü¿ë
+        result.mp = a.mp + b.mp;
+        result.level = a.level + b.level;
+        result.xp = a.xp + b.xp;
+        result.criticalPercentage = a.criticalPercentage + b.criticalPercentage;
+        result.missPercentage = a.missPercentage + b.missPercentage;
+
         return result;
     }
 
-    public static PlayerStats operator -(PlayerStats stats, PlayerStats other)
+
+    // - ¿¬»êÀÚ ¿À¹ö·Îµù
+    public static PlayerStat operator -(PlayerStat a, PlayerStat b)
     {
-        PlayerStats result = new PlayerStats();
-        result.hp = stats.hp - other.hp;
-        result.mp = stats.mp - other.mp;
-        result.attackValue = stats.attackValue - other.attackValue;
-        result.defenseValue = stats.defenseValue - other.defenseValue;
-        result.turnSpeed = stats.turnSpeed - other.turnSpeed;
-        result.level = stats.level - other.level;
-        result.xp = stats.xp - other.xp;
-        result.criticalAttackPercentage = stats.criticalAttackPercentage - other.criticalAttackPercentage;
-        result.missPercentage = stats.missPercentage - other.missPercentage;
+        PlayerStat result = new PlayerStat();
+
+        // ºÎ¸ğ Å¬·¡½º Stats
+        result.hp = a.hp - b.hp;
+        result.attackValue = a.attackValue - b.attackValue;
+        result.defenseValue = a.defenseValue - b.defenseValue;
+        result.turnSpeed = a.turnSpeed - b.turnSpeed;
+
+        // PlayerStat Àü¿ë
+        result.mp = a.mp - b.mp;
+        result.level = a.level - b.level;
+        result.xp = a.xp - b.xp;
+        result.criticalPercentage = a.criticalPercentage - b.criticalPercentage;
+        result.missPercentage = a.missPercentage - b.missPercentage;
+
+        return result;
+    }
+
+    // * ¿¬»êÀÚ ¿À¹ö·Îµù
+    public static PlayerStat operator *(PlayerStat a, float value)
+    {
+        PlayerStat result = new PlayerStat();
+
+        // ºÎ¸ğ Å¬·¡½º Stats
+        result.hp = (int)(a.hp * value);
+        result.attackValue = a.attackValue * value;
+        result.defenseValue = a.defenseValue * value;
+        result.turnSpeed = a.turnSpeed * value;
+
+        // PlayerStat Àü¿ë
+        result.mp = a.mp * value;
+        result.level = (int)(a.level * value);
+        result.xp = a.xp * value;
+        result.criticalPercentage = (int)(a.criticalPercentage * value);
+        result.missPercentage = (int)(a.missPercentage * value);
+
         return result;
     }
 }
 
-// ëª¬ìŠ¤í„°ì˜ ìŠ¤íƒ¯ì„ ë‹´ëŠ” í´ë˜ìŠ¤
 [System.Serializable]
-public class MonsterStats : Stats
+public class MonsterStat : Stats
 {
-    public float dropXp;
+    public float dropXp; 
+}
+
+[System.Serializable]
+public class Buff
+{
+    public float attackPercent;
+    //¸îÅÏ ³²¾Ò³ª?
+    public int remainTurn;
 }
