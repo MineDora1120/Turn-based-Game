@@ -94,8 +94,8 @@ public class PlayerStat : Stats
 
         // 부모 클래스 Stats (int형은 반올림 처리)
         result.level = Mathf.RoundToInt(a.level * value);
-        result.hp = Mathf.RoundToInt(a.hp * value);
-        result.maxHp = Mathf.RoundToInt(a.maxHp * value); // maxHp 누락 보완
+        result.hp = a.hp * value;
+        result.maxHp = a.maxHp * value; // maxHp 누락 보완
         result.attackValue *= value;
         result.defenseValue *= value;
         result.turnSpeed *= value;
