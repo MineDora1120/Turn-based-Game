@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public enum TurnAction
@@ -16,6 +17,8 @@ public class GameManager : Singleton<GameManager>
     [Header("몬스터")]
     public Monster nowMonster;
 
+    [Header("컴포넌트")]
+    public TurnSystemUI turnSys;
 
     protected override void Awake()
     {
@@ -34,10 +37,28 @@ public class GameManager : Singleton<GameManager>
     {
         nowMonster = monster;
         isMoving = false;
+
+        turnSys.Open();
+        Player player = GameObject.FindWithTag("Player").GetComponent<Player>();
+
+        player.OnFightStart();
     }
 
-    public void OnGameOver()
+    public void OnGameOver(bool playerWin = false)
     {
-        isMoving = false;
+        nowMonster = null;
+        isMoving = playerWin;
+
+        if(!playerWin)
+        {
+            isMoving = true;
+            SceneManager.LoadScene("Main");
+        }
+    }
+
+    public void OnRunPlayer()
+    {
+        nowMonster = null;
+        isMoving = true;
     }
 }

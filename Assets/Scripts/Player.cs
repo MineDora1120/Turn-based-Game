@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEngine.Rendering.DebugUI;
 
 public class Player : MonoBehaviour, IDamaged
 {
@@ -10,10 +11,12 @@ public class Player : MonoBehaviour, IDamaged
 
     [Header("플레이어 설정")]
     public float speed;
-
+    public float jumpForce;
 
     [Header("플레이어 스탯")]
     public PlayerStat stat;
+    public PlayerStat defaultStat;
+    public List<SkillData> skills;
 
 
     [Header("플레이어 아이템")]
@@ -23,15 +26,22 @@ public class Player : MonoBehaviour, IDamaged
     public List<Buff> usePotion;
 
     float direction;
+    private bool isGround = false;
+
+    public int nowAttackDamage;
 
     public void OnDamage(int damage)
     {
         stat.hp -= damage;
+        defaultStat.hp -= damage;
         
-        if(stat.hp <= 0)
+        if(stat.hp <= 0) //사망
         {
-            GameManager.Instance.OnGameOver();
+            anim.SetTrigger("Die");
             return;
+        } else
+        {
+            anim.SetTrigger("Damaged");
         }
     }
 
@@ -41,6 +51,8 @@ public class Player : MonoBehaviour, IDamaged
         spr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
+        defaultStat = stat.Clone();
     }
 
     // Update is called once per frame
@@ -74,6 +86,79 @@ public class Player : MonoBehaviour, IDamaged
         {
             spr.flipX = false;
         }
+    }
+
+    public void OnFightStart()
+    {
+        stat = defaultStat.Clone();
+    }
+
+    public void OnJump(InputValue value)
+    {
+        if (!value.isPressed) return;
+        if (!isGround) return;
+
+        //Rigidbody2D
+        rb.AddForceY(jumpForce, ForceMode2D.Impulse);
+
+        isGround = false;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (!collision.gameObject.CompareTag("Ground")) return;
+
+        isGround = true;
+    }
+
+    public void OnAttackMonster(IDamaged monster)
+    {
+        //float attackValue = AttackValueLogic().attackValue; << 지역 변수(attackValue)에 값을 저장!
+        // 지역변수는 무조건 Private로 저장이 된다. 또한 함수가 끝나면 사라짐!
+        // 전역 변수로 선언하면 public으로 선언할 수 있음.
+        // public으로 선언하면 다른 곳에서도 참조할 수 있음.
+        // 맨 위 변수 선언하는 부분에 public int 형식의 변수를 제작,
+        // 그 변수안에 AttackValueLogic().attackValue 값을 저장
+        // TurnSystemUI에서 Player를 참조하여 값을 불러옴.
+
+        nowAttackDamage = (int)AttackValueLogic().attackValue; //60
+
+        monster.OnDamage(nowAttackDamage);
+    }
+
+    public int OnSkillAttack(SkillData skill, IDamaged monster)
+    {
+        int _skillDmg = (int)AttackValueLogic().attackValue;
+        _skillDmg += (int)(_skillDmg * (skill.stat.attackValue * 0.01f));
+
+        monster.OnDamage(_skillDmg);
+        return _skillDmg;
+    }
+
+    public void OnSkillStats(SkillData skill)
+    {
+        stat += stat * (skill.stat * 0.01f);
+    }
+
+    public void OnNext(InputValue value)
+    {
+        if (!value.isPressed) return;
+
+        GameManager.Instance.turnSys.Next();
+    }
+
+    public void OnBack(InputValue value)
+    {
+        if (!value.isPressed) return;
+
+        GameManager.Instance.turnSys.Main();
+    }
+
+    public void OnArrowInput(InputValue value)
+    {
+        Vector2 _vec = value.Get<Vector2>();
+
+        GameManager.Instance.turnSys.ChangeIndex((int)_vec.y, (int)_vec.x);
     }
 
     #region # Value Logic

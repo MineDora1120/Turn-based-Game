@@ -1,13 +1,11 @@
 using UnityEngine;
 
 [System.Serializable]
-//C# 클래스를 직렬화(Serialization) 가능하게 만드는 속성(Attribute)
-//클래스의 데이터를 Inspector 창에 표시하거나 저장할 수 있게 해주는 기능
-
 public class Stats
 {
     public int level;
     public int hp;
+    public int maxHp;
     public float attackValue;
     public float defenseValue;
     public float turnSpeed;
@@ -17,69 +15,120 @@ public class Stats
 public class PlayerStat : Stats
 {
     public float mp;
+    public float maxMp;
     public float xp;
     public int criticalPercentage;
     public int missPercentage;
 
+    public PlayerStat Clone()
+    {
+        return new PlayerStat
+        {
+            // Stats
+            level = this.level,
+            hp = this.hp,
+            maxHp = this.maxHp,
+            attackValue = this.attackValue,
+            defenseValue = this.defenseValue,
+            turnSpeed = this.turnSpeed,
+
+            // PlayerStat
+            mp = this.mp,
+            maxMp = this.maxMp,
+            xp = this.xp,
+            criticalPercentage = this.criticalPercentage,
+            missPercentage = this.missPercentage
+        };
+    }
+
+    // + 연산자 오버로딩
     public static PlayerStat operator +(PlayerStat a, PlayerStat b)
     {
-        PlayerStat result = new PlayerStat();
+        PlayerStat result = a.Clone();
 
         // 부모 클래스 Stats
-        result.hp = a.hp + b.hp;
-        result.attackValue = a.attackValue + b.attackValue;
-        result.defenseValue = a.defenseValue + b.defenseValue;
-        result.turnSpeed = a.turnSpeed + b.turnSpeed;
+        result.level += b.level;
+        result.hp += b.hp;
+        result.maxHp += b.maxHp; // maxHp 누락 보완
+        result.attackValue += b.attackValue;
+        result.defenseValue += b.defenseValue;
+        result.turnSpeed += b.turnSpeed;
 
         // PlayerStat 전용
-        result.mp = a.mp + b.mp;
-        result.level = a.level + b.level;
-        result.xp = a.xp + b.xp;
-        result.criticalPercentage = a.criticalPercentage + b.criticalPercentage;
-        result.missPercentage = a.missPercentage + b.missPercentage;
+        result.mp += b.mp;
+        result.maxMp += b.maxMp; // maxMp 누락 보완
+        result.xp += b.xp;
+        result.criticalPercentage += b.criticalPercentage;
+        result.missPercentage += b.missPercentage;
 
         return result;
     }
-
 
     // - 연산자 오버로딩
     public static PlayerStat operator -(PlayerStat a, PlayerStat b)
     {
-        PlayerStat result = new PlayerStat();
+        PlayerStat result = a.Clone();
 
         // 부모 클래스 Stats
-        result.hp = a.hp - b.hp;
-        result.attackValue = a.attackValue - b.attackValue;
-        result.defenseValue = a.defenseValue - b.defenseValue;
-        result.turnSpeed = a.turnSpeed - b.turnSpeed;
+        result.level -= b.level;
+        result.hp -= b.hp;
+        result.maxHp -= b.maxHp; // maxHp 누락 보완
+        result.attackValue -= b.attackValue;
+        result.defenseValue -= b.defenseValue;
+        result.turnSpeed -= b.turnSpeed;
 
         // PlayerStat 전용
-        result.mp = a.mp - b.mp;
-        result.level = a.level - b.level;
-        result.xp = a.xp - b.xp;
-        result.criticalPercentage = a.criticalPercentage - b.criticalPercentage;
-        result.missPercentage = a.missPercentage - b.missPercentage;
+        result.mp -= b.mp;
+        result.maxMp -= b.maxMp; // maxMp 누락 보완
+        result.xp -= b.xp;
+        result.criticalPercentage -= b.criticalPercentage;
+        result.missPercentage -= b.missPercentage;
 
         return result;
     }
 
-    // * 연산자 오버로딩
+    // * (스칼라 곱) 연산자 오버로딩
     public static PlayerStat operator *(PlayerStat a, float value)
     {
-        PlayerStat result = new PlayerStat();
+        PlayerStat result = a.Clone();
 
-        // 부모 클래스 Stats
-        result.hp = (int)(a.hp * value);
-        result.attackValue = a.attackValue * value;
-        result.defenseValue = a.defenseValue * value;
-        result.turnSpeed = a.turnSpeed * value;
+        // 부모 클래스 Stats (int형은 반올림 처리)
+        result.level = Mathf.RoundToInt(a.level * value);
+        result.hp = Mathf.RoundToInt(a.hp * value);
+        result.maxHp = Mathf.RoundToInt(a.maxHp * value); // maxHp 누락 보완
+        result.attackValue *= value;
+        result.defenseValue *= value;
+        result.turnSpeed *= value;
 
         // PlayerStat 전용
-        result.mp = a.mp * value;
-        result.level = (int)(a.level * value);
-        result.xp = a.xp * value;
-        result.criticalPercentage = (int)(a.criticalPercentage * value);
-        result.missPercentage = (int)(a.missPercentage * value);
+        result.mp *= value;
+        result.maxMp *= value; // maxMp 누락 보완
+        result.xp *= value;
+        result.criticalPercentage = Mathf.RoundToInt(a.criticalPercentage * value);
+        result.missPercentage = Mathf.RoundToInt(a.missPercentage * value);
+
+        return result;
+    }
+
+    // * (객체 간 곱) 연산자 오버로딩
+    public static PlayerStat operator *(PlayerStat a, PlayerStat b)
+    {
+        PlayerStat result = a.Clone();
+
+        // 부모 클래스 Stats
+        result.level *= b.level;
+        result.hp *= b.hp;
+        result.maxHp *= b.maxHp;
+        result.attackValue *= b.attackValue;
+        result.defenseValue *= b.defenseValue;
+        result.turnSpeed *= b.turnSpeed;
+
+        // PlayerStat 전용
+        result.mp *= b.mp;
+        result.maxMp *= b.maxMp;
+        result.xp *= b.xp;
+        result.criticalPercentage *= b.criticalPercentage;
+        result.missPercentage *= b.missPercentage;
 
         return result;
     }
@@ -88,13 +137,12 @@ public class PlayerStat : Stats
 [System.Serializable]
 public class MonsterStat : Stats
 {
-    public float dropXp; 
+    public float dropXp;
 }
 
 [System.Serializable]
 public class Buff
 {
     public float attackPercent;
-    //몇턴 남았나?
     public int remainTurn;
 }
