@@ -4,8 +4,8 @@ using UnityEngine;
 public class Stats
 {
     public int level;
-    public int hp;
-    public int maxHp;
+    public float hp;
+    public float maxHp;
     public float attackValue;
     public float defenseValue;
     public float turnSpeed;

@@ -71,6 +71,9 @@ public class Player : MonoBehaviour, IDamaged
 
         //애니메이션 컴포넌트에 rigidbody 현재 속도지정
         anim.SetFloat("Speed", rb.linearVelocity.magnitude);
+
+        if (stat.mp >= stat.maxMp) return;
+        stat.mp += Time.deltaTime;
     }
 
     //Player Input
